@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giloo-1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+	#quntity {
+		padding:2px 0px 4px 0px;
+		margin:40px;
+		width:10%;
+		border-color:Orange;
+	}
+	#quntity:hover {
+		border-color:DodgerBlue;
+	}
+    #quntity:active{
+        border-color:rgb(255, 99, 71);
+    }
+	#price {
+		padding:2px 0px 4px 0px;
+		margin:40px;
+		width:10%;
+		border-color:Orange;
+	}
+	#price:hover {
+		border-color:DodgerBlue;
+	}
+     #price:active{
+        border-color:rgb(255, 99, 71);
+    }
+	#total {
+		padding:2px 0px 4px 0px;
+		margin:40px;
+		width:10%;
+		border-color:Orange;
+	}
+	#total:hover {
+		border-color:DodgerBlue;
+		box-shadow:inherit;
+	}
+     #price:active{
+        border-color:rgb(255, 99, 71);
+    }
+</style>
+</head>
+    <form oninput="x.value=parseInt(quntity.value) + parseInt(price.value)">
+        <input class="btn btn-defult" type="number" id="quntity" value="0"></input>
+        <input class="btn btn-defult" type="number" id="price"   value="0"></input>
+        <input class="btn btn-defult" name="x"      id="total"></input>
+    </form>
+<body>
