@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gilool</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
+}
+.column {
+    flex:50%;
+    max-width: 50%;
+    padding: 0px 6px;
+}
+
+.column img {
+    margin-top: 10px;    
+}
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media (max-width: 500px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+<!-- Photo Grid -->
+    <div class="row"> 
+      <div class="column">
+        <img src="/home/parth/localhost/static/images/modern_mobile.jpeg" style="width:100%
+        ;height:400px">
+        <img src="/home/parth/localhost/static/images/bluetooth.jpeg" style="width:100%;height:350px">
+        <img src="/home/parth/localhost/static/images/head_phone.jpeg" style="width:100%;height:600px">
+      </div>
+      <div class="column">
+        <img src="/home/parth/localhost/static/images/ear_phone.jpeg" style="width:100%;height:400px">
+        <img src="/home/parth/localhost/static/images/data_cable.jpeg" style="width:100%;height:250px">
+        <img src="/home/parth/localhost/static/images/cover.jpeg" style="width:100%;height:345px">
+        <img src="/home/parth/localhost/static/images/ring.jpeg" style="width:100%;height:350px">
+      </div> 
+    </div>
+</body>
+</html>
